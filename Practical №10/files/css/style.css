@@ -1,0 +1,52 @@
+li{
+  padding: 5px;
+  margin: 5px;
+}
+
+ul{
+	border-radius: 20px;
+	list-style-type: none;
+	font-size: 15px;
+}
+
+textarea{
+  overflow: scroll;
+  height: 100px;
+  width: 440px;
+  resize: none;
+}
+
+.form{
+	width: 700px;
+	height: 900px;
+	background-color: #42AAFF;
+	margin: 20px auto 60px auto;
+	padding: 5px 20px
+}
+form input{margin-bottom: 5px;}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+  padding: .5em;
+}
+.form-row > label {
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+.form-row > input {
+  flex: 2; 
+}
+.form-row > input,
+.form-row > button {
+  padding: .8em;
+}
+
+.buttton{
+  border-radius: 20px;
+  background-color: #2ffaff;
+  border: 1px blue;
+  width: 400px;
+  height: 40px;
+
+}

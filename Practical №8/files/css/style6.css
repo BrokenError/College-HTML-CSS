@@ -1,0 +1,29 @@
+.text2{
+	width: 800px;
+	margin: 20px auto 60px auto;
+	padding: 20px;
+	border: 2px solid red;
+	border-radius: 20px;
+}
+
+.text2 h1{
+	text-align: left;
+	color: red;
+}
+
+.text2 h2{
+	text-align: left;
+	color: red;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+.blue{
+	color: blue;
+}

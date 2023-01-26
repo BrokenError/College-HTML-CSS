@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Практическая №9</title>
+    <link rel="stylesheet" href="../css/style1.css">
+</head>
+<body>
+    <article class="text1">
+        <form action="" method="GET">
+        <input type="text" placeholder="Плейсхолдер"><br><br>
+        <input type="text" value="Value"><br><br>
+        <input type="text" placeholder="disabled" disabled><br><br>
+        <input type="password" placeholder="Введите пароль..."><br><br>
+        <textarea placeholder="Введите текст..."></textarea><br><br>
+        <input type="button" value="Кнопка через тег input"><br><br>
+        <button>Кнопка через тег button</button><br><br>
+        </form>
+    </article>
+    <article class="text1">
+        <form action="" method="GET">
+        <input type="text" placeholder="Плейсхолдер" id="t1">
+        <label for="text">Это мека для инпута - нажмите меня - и инпут получит фокус!</label><br><br>
+        <input type="submit" value="Отправить на сервер" id="t1">
+        </form>
+    </article>
+    <article class="text3">
+        <form action="" method="GET">
+        <input type="checkbox" id="t1">
+        <label for="text">Это метка для чекбокса: нажмите на меня - чекбос сменит галочку!</label><br><br>
+
+        <input type="checkbox" checked id="t1">
+        <label for="text">Я отмечен по умолчанию!</label><br><br>
+
+        <input type="checkbox" disabled checked id="t1">
+        <label for="text">Я disabled!</label><br><br>
+
+    <article class="bord">
+        <p>Это группа радиокнпок - только дна из них может быть отменчена!</p>
+        <input type="radio" name="raio" id="t1">
+        <label for="text">Это метка для радио</label><br><br>
+        <input type="radio" name="raio" id="t1">
+        <label for="text">Это метка для радио</label><br><br><br>
+        <input type="submit" value="Отправить на сервер" id="t1">
+    </article>
+        </form>
+    </article>
+
+
+
+    <article class="text1">
+        <form action="" method="GET">
+        <select id="t1">
+            <option>Нью-Йорк</option>
+            <option>Минск</option>
+            <option>Киев</option>
+            <option>Лондон</option>
+        </select>
+
+        <select multiple name="city1[]" id="t1">
+            <option>Москва</option>
+            <option>Киев</option>
+            <option>Нью-Йорк</option>
+        </select>
+
+        <select multiple name="city2[]" id="t1">
+            <option>Москва</option>
+            <option>Киев</option>
+            <option>Нью-Йорк</option>
+            <option>Минск</option>
+            <option>Варшава</option>
+            <option>Пенза</option>
+        </select>
+
+        <input type="submit" value="Отправить на сервер" id="t1">
+        </form>
+    </article>
+
+    <article class="text1">
+        <form action="" method="GET">
+        <input type="file" value="Обзор..." id="t1">
+        <input type="submit" value="Отправить на сервер" id="t1">
+        </form>
+    </article>
+
+    <article class="text1">
+        <form action="" method="GET">
+        <fieldset>
+        <legend>Выберите кнопoчку</legend>
+        <input type="radio" name="raio" id="t1">
+        <input type="radio" name="raio" id="t1">
+        <input type="radio" name="raio" id="t1">
+        <input type="text" placeholder="Ваше Имя" id="t1">
+        </fieldset>
+        <br>
+        <fieldset>
+        <legend>Выберите ещё кнопочки</legend>
+        <input type="radio" name="raio" id="t1">
+        <input type="radio" name="raio" id="t1">
+        <input type="radio" name="raio" id="t1">
+        <input type="radio" name="raio" id="t1">
+        </fieldset>
+        </form>
+    </article>  
+
+    <article class="text1">
+        <form action="" method="GET">
+        <textarea id="a1">Ограничена ширина и высота</textarea><br><br>
+        <textarea id="a2">Ограничена высота (horizontal)</textarea><br><br>
+        <textarea id="a3">Ограничена ширина (vertical)</textarea><br><br>
+        <textarea id="a4">Ничего не ограничено(both)</textarea><br><br>
+        </form>
+    </article>
+</body>
+</html>

@@ -1,0 +1,69 @@
+.text1{
+	width: 800px;
+	margin: 20px auto 60px auto;
+	padding: 20px;
+	border: 1px dashed black;
+}
+
+.text1 textarea{
+	width: 200px;
+	height: 100px;
+}
+
+
+
+
+#t1{
+	margin: 0px 5px 0px 5px;
+}
+
+
+
+
+.text3{
+	width: 800px;
+	margin: 20px auto 60px auto;
+	padding: 20px;
+	border: 1px dashed black;
+}
+
+.text3 label{
+	border: 1px solid red;
+	padding: 2px;
+}
+
+.bord{
+	width: 750px;
+	height: 100px;
+	margin: 20px auto 60px auto;
+	padding: 20px;
+	border: 2px solid black;
+}
+
+.text4{
+	width: 800px;
+	margin: 20px auto 60px auto;
+	padding: 20px;
+	border: 1px dashed black;
+}
+
+.text4 textarea{
+	width: 200px;
+	height: 100px;
+}
+
+#a1{
+	resize: none;
+}
+
+#a2{
+	resize: horizontal;
+}
+
+#a3{
+	resize: vertical;
+}
+
+#a4{
+	resize: both;
+}

@@ -1,0 +1,33 @@
+h1{
+	text-align: center;
+	color: black;
+}
+
+h2{
+	text-align: center;
+	color: red;
+}
+
+.green{
+	color: green;
+}
+
+p, li{
+	font-size: 20px;
+}
+
+#text{
+	width: 800px;
+	margin: 20px auto 60px auto;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 0px 0px 0px 0px;
+}
+
+a{
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: red;
+}
+

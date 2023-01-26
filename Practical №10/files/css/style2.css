@@ -1,0 +1,38 @@
+body{
+	font-size: 16px;
+	color: #8b4513;
+}
+
+fieldset{
+	border-radius: 10px;
+	margin: 20px 20px;
+}
+
+.fcenter1{
+	margin: 5px 200px;
+	width: 200px;
+}
+.fcenter2{
+	margin: 5px 172px;
+	width: 200px;
+}
+.fcenter3{
+	margin: 5px 191px;
+	width: 200px;
+}
+.fcenter4{
+	margin: 5px 120px;
+	width: 200px;
+}
+.fcenter5{
+	margin: 5px 175px;
+	width: 200px;
+}
+.fcenter6{
+	margin: 5px 123px;
+	width: 200px;
+}
+.fcenter7{
+	margin: 5px 90px;
+	width: 200px;
+}

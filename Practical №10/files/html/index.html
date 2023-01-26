@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Практическая работа №10</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<ul class='form'>
+		<h1>Форма регистрации</h1>
+		<form action="" method='GET'>
+			<li class='form-row'>
+				<label for='form1'>ФИО</label>
+				<input 	type="text" name="name" size='40px' maxlength="25" id='form1' 
+						required='required'
+						placeholder="Введите ваши данные"><br>
+			</li>
+			<li class='form-row'>
+			<label for='form2'>Email</label>
+			<input 	type="email" name="email" size='40px' maxlength="25" id='form2' 
+					required='required'
+					placeholder="Введите вашу почту"><br>
+			</li>
+			<li class='form-row'>
+			<label for='form3'>Номер телефона</label>
+			<input 	type="tel" name="phone" 
+					pattern="[(]\d{3,4}[)]\s\d{2,3}[-]\d{2}[-]\d{2}" size='40px' maxlength="11" id='form3' 
+					required
+					placeholder="+7(___)___-__-__"><br>
+			</li>
+			<li class='form-row'>
+			<label for='form4'>Город</label>
+			<input 	type="text" name="" size='40px' maxlength="25" id='form4'
+					placeholder="г._______"><br>
+			</li>
+			<li class='form-row'>
+			<label for='form5'>Дата рождения</label>
+			<input 	type="date" name="" size='40px' maxlength="25" id='form5'
+					placeholder="дд.мм.гггг"><br>
+			</li>
+		</form>
+		<h1>Параметры доставки</h1>
+		<form>
+			<li class='form-row'>
+				<label for='text6'>Адрес</label>
+				<textarea></textarea>
+			</li>
+			<li class='form-row'>
+				<label for='form10'>Почтовый индекс</label>
+				<input type="text" name="" size="40px" maxlength="25" id=form10>
+		</form>
+		<h1>Предпочитаеммый способ получания уведомлений</h1>
+		<form>
+			<li>
+			<input type="radio" name="var" id='text7'>
+			<label for='text7'>По Email</label><br>
+			</li>
+			<li>
+			<input type="radio" name="var" id='text8'>
+			<label for='text8'>По телефону</label><br>
+			</li>
+			<li>
+			<input type="radio" name="var" id='text9'>
+			<label for='text9'>Не уведомлять меня</label><br>
+			</li>
+		<div style="text-align: center;">
+			<input class='buttton' type="submit" value="Отправить данные" size=''>
+		</div>
+		</form>
+	<ul>
+</body>
+</html>

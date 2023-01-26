@@ -1,0 +1,26 @@
+h3{
+	color: blue;
+}
+
+p{
+	font-size: 20px;
+}
+
+.SEO li{
+	font-size: 20px;
+}
+
+a{
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	color: blue;
+}
+
+#text{
+	width: 800px;
+	margin: 20px auto 60px auto;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 0px 0px 0px 0px;
+}

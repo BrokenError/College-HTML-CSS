@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="../css/style2.css">
+	<title>Практичесекая работа №10(2)</title>
+</head>
+<body>
+	<form>
+	<fieldset style='height: 800px; width: 50%; text-align: left; margin: 20px auto'>
+		<h1>Анкета посетителя ресторана</h1>
+	<fieldset style="background-color: #f8f3ee; border-color: #2ffaff" >
+		<legend style='color: #2ffaff'>Контактная информация</legend>
+		<label for='id1'>Имя</label></td>
+		<input class='fcenter1' type="text" name="" id='id1'><br>
+		<label for='id2'>Телефон</label>
+		<input class='fcenter2' type="tel" name="" id='id2'><br>
+		<label for='id3'>Email</label>
+		<input class='fcenter3' type="email" name="" id='id3'><br>
+		<label for='id4'>Дата посещения</label>
+		<input class='fcenter4' type="date" name="" id='id4'><br>
+	</fieldset>
+
+	<fieldset style="background-color: #f8f3ee; border-color: #2ffaff">
+		<legend style='color: #2ffaff'>Персональная информация</legend>
+		<label for='id5'>Возраст</label>
+		<input class='fcenter5' type="number" min='1' max='100' step='1' id='id5'><br>
+		<label for='id6'>Любимая кухня</label>
+		<select class='fcenter6'>
+			<option>Русская</option>
+			<option>Китайская</option>
+			<option>Американская</option>
+		</select><br>
+		<label for='id1' style="vertical-align: top">Какие блюда Вы хотели<br>бы увидеть в меню?</label>
+		<textarea class='fcenter7' id='id7'></textarea>
+	</fieldset>
+
+	<fieldset style="background-color: #f8f3ee;  border-color: #2ffaff">
+		<legend style='color: #2ffaff'>Оценка нашего заведения</legend>
+		<label style='font-weight: bold'>Почему Вы выбрали наше заведение?</label><br>
+		<input type="radio" name="text" id='point1'><label>Недалеко от дома.работы</label><br>
+		<input type="radio" name="text" id='point2'><label>Увидел рекламу</label><br>
+		<input type="radio" name="text" id='point3'><label>Посоветовали</label><br>
+		<input type="radio" name="text" id='point4'><label>Оптимальное соотношение цены и качества</label><br>
+		<label style='font-weight: bold'>Вы будете рекомендовать наше заведение своим знакомым?</label><br>
+		<input type="radio" name="text" id='point2'><label>Да</label><br>
+		<input type="radio" name="text" id='point3'><label>Нет</label><br>
+	</fieldset>
+
+	<input style='border-radius: 5px; border-color: #2ffaff; background-color: #2ffaff; margin: 5px 20px; width: 200px; height: 30px' type="submit" value="Отправить">
+	</fieldset>
+	</form>
+</body>
+</html>

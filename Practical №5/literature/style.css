@@ -1,0 +1,24 @@
+
+.title{
+	color: orange;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.header{
+	background-color: silver;
+
+}
+
+td{
+	font-size: 20px;
+}
+
+th{
+	font-size: 21px;
+
+}
+
+table{
+	margin: 0px 20%;
+}

@@ -1,0 +1,23 @@
+table{
+	width: 500px;
+	border: 3px solid gray;
+	margin: auto;
+	padding: auto;
+	border-collapse: collapse;
+}
+
+th,td{
+	border: 1px dashed silver;
+	padding: 5px 50px;
+}
+
+th{
+	color: brown;
+	background-color: silver; 
+}
+
+caption{
+	color:red;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
